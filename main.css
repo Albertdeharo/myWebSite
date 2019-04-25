@@ -13,6 +13,9 @@ body{
     overflow-x: hidden;
 }
 
+/* MENU NAVEGACIÓN */
+
+
 a{
     text-decoration: none;
     color: rgb(128, 165, 207);
@@ -25,11 +28,16 @@ header{
     background-size: cover;
 }
 
+                        /* DIV CONTENEDOR */
+
 .container{
     max-width: 120rem;
     width: 90%;
     margin: 0 auto;
 }
+
+
+                        /* TITO */           
 
 .T{
     color: rgb(128, 165, 207);
@@ -43,6 +51,15 @@ header{
     color: rgb(196, 207, 219); 
 }
 
+.personalName{
+    font-size: 3rem;
+    font-weight: 300;
+    transform: translateX(-100rem);
+    animation: slideIn .5s forwards;
+}
+
+
+                    /* ELEMENTOS NAVEGACIÓN */
 
 nav{
     padding-top: 5rem;
@@ -53,12 +70,6 @@ nav{
     font-size: 1.6rem;
 }
 
-.personalName{
-    font-size: 3rem;
-    font-weight: 300;
-    transform: translateX(-100rem);
-    animation: slideIn .5s forwards;
-}
 
 nav ul{
     display: flex;
@@ -70,6 +81,8 @@ nav ul li{
     animation: slideIn .5s forwards;
 }
 
+                    /* DURACIÓN ANIMACIÓN (3)*/
+
 nav ul li:nth-child(1){
     animation-delay: 0s;
 }
@@ -79,9 +92,7 @@ nav ul li:nth-child(2){
 nav ul li:nth-child(3){
     animation-delay: 1s;
 }
-nav ul li:nth-child(4){
-    animation-delay: 1.5s;
-}
+
 
 nav ul li a{
     padding: 1rem 0;
@@ -90,8 +101,10 @@ nav ul li a{
     letter-spacing: 2px;
 }
 
+                    /* MARGEN DERECHO ULTIMO ELEMENTO */
+
 nav ul li a:last-child{
-     margin-right: 10px;
+     margin-right: 0px;
 }
 
 nav ul li a::before,
@@ -105,6 +118,9 @@ left: 0;
 transform: scaleX(0);
 transition: all .5s;
 }
+
+                    /* APARICIÓN ELEMENTOS */
+
 
 nav ul li a::before{
     top: 0;
@@ -121,6 +137,8 @@ nav ul li a:hover::after{
    transform: scaleX(1); 
 }
 
+                     /* ANIMACIÓN */
+
 @keyframes slideIn {
     from{
 
@@ -129,3 +147,8 @@ nav ul li a:hover::after{
         transform: translateX(0)
     }
 }
+
+
+/* --------------------------------------------------------------*/
+
+
