@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
+
+
+
+            <!-- HEADER AND NAVBAR -->
+
     <header>
         <div class="container">
             <nav>
@@ -15,30 +20,33 @@
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#form">Contact</a></li>
                 </ul>
             </nav>
         </div>
+        <img id="miFoto" src="/fotoPerfil.png" alt="">
+        <h2>¡ HELLO WORLD !</h2>
     </header>
         
         
         <!-- FORMULARIO CONTACTO -->
-        
-        <form name="contact" netlify>
+    <div class="formulario">
+        <form id="form" name="contact" netlify>
             <p>
-                <label>Your Name: <input type="text" name="name" /></label>   
+                <label>Tu nombre: <input type="text" name="name" /></label>   
             </p>
             <p>
-                <label>Your Email: <input type="email" name="email" /></label>
+                <label>Tu Email: <input type="email" name="email" /></label>
             </p>
             
             <p>
-                <label>Message: <textarea name="message"></textarea></label>
+                <label>Déjame un mensaje: <textarea name="message"></textarea></label>
             </p>
             <p>
-                <button type="submit">Send</button>
+                <button type="submit">Enviar</button>
             </p>
         </form>
+    <div class="formulario">
         
 
 
