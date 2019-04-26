@@ -16,14 +16,15 @@ body{
 /* MENU NAVEGACIÓN */
 
 
-a{
+
+li a{
     text-decoration: none;
-    color: rgb(235, 192, 144);
+    color: #f7a867;
 }
 
 header{
     width: 100%;
-    height: 150vh;
+    height: 100vh;
     background:linear-gradient(to bottom, rgba(0,0,0.8),rgba(0,0,0,.5)), url("/textura-madera-en-negro-2802.jpg") center no-repeat;
     background-size: cover;
     text-align: center;
@@ -38,26 +39,20 @@ header{
 }
 
 
-                        /* TITO */           
-
-.T{
-    color: rgb(235, 192, 144);
+                        /* SOCIAL MEDIA */        
+                        
+i{
+    color:rgb(255, 136, 0);
 }
 
-.i{
-    color: rgb(195, 209, 224); 
-}
 
-.o{
-    color: rgb(196, 207, 219); 
-}
-
-.personalName{
-    font-size: 10rem;
+.socialMedia{
+    font-size: 5rem;
     font-weight: 300;
     transform: translateX(-100rem);
     animation: slideIn .5s forwards;
 }
+
 
 h1{
     margin-left: 50px;
@@ -137,7 +132,7 @@ content: '';
 position: absolute;
 width: 100%;
 height: 2px;
-background-color: rgb(235, 192, 144);
+background-color: rgb(235, 184, 127);
 left: 0;
 transform: scaleX(0);
 transition: all .5s;
@@ -225,9 +220,11 @@ img{
 
   .miNombre{
       font-size: 3rem;
+      color: black;
   }
   .profesion{
       font-size: 2rem;
+      color:black;
   }
 
 /* --------------------------------------------------------------*/
